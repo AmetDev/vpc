@@ -1,12 +1,3 @@
-terraform {
-  required_providers {
-    yandex = {
-      source  = "yandex-cloud/yandex"
-      version = "0.142.0"
-    }
-  }
-}
-
 variable "folder_id" {
   description = "Yandex Cloud folder ID"
   type        = string
